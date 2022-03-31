@@ -1,0 +1,33 @@
+.logo:hover {
+  cursor: pointer;
+}
+
+.productLink:hover {
+  cursor: pointer;
+}
+
+.card {
+  transition: all ease-in-out 0.2s;
+  position: relative;
+  box-shadow: 2px 2px 5px #8080808c;
+}
+.cardAction {
+  /* position: absolute;
+  bottom: 0px; */
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+.cardImg {
+  margin: 10px;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.cardImg img {
+  height: 100%;
+}

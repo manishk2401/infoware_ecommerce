@@ -1,0 +1,40 @@
+.cardPart {
+  padding: 0px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  background-color: white;
+  height: 600px;
+}
+.rating {
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  color: orange;
+  font-weight: bold;
+}
+.cardContent {
+  padding: 20px 40px;
+}
+
+.cartDesc {
+  max-width: 500px;
+  text-align: justify;
+  min-height: 100px;
+  font-size: 18px;
+}
+.cardAction {
+  margin-top: 20px;
+}
+.cardAction button {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 670px) {
+  .cardPart {
+    height: initial;
+  }
+
+  .cardPart img {
+    width: 100%;
+  }
+}
